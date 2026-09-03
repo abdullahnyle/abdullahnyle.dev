@@ -4,42 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abdullah Chaudhry</title>
-  <meta name="description" content="Computer Science undergrad at UET Lahore. I build analytics tools that turn raw data into clear answers. SQL, data modeling, and business-focused reporting.">
+  <meta name="description" content="Computer Science undergraduate at UET Lahore working with applied data, health information, and decision-support systems.">
+
   <!-- Open Graph (LinkedIn, Facebook, WhatsApp, Discord, etc.) -->
   <meta property="og:title" content="Abdullah Chaudhry">
-  <meta property="og:description" content="Computer Science undergrad at UET Lahore. I build analytics tools that turn raw data into clear answers — SQL, data modeling, and business-focused reporting.">
+  <meta property="og:description" content="Computer Science undergraduate at UET Lahore working with applied data, health information, and decision-support systems.">
   <meta property="og:image" content="https://abdullahnyle.dev/og-image.png">
   <meta property="og:url" content="https://abdullahnyle.dev">
   <meta property="og:type" content="website">
+
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Abdullah Chaudhry">
-  <meta name="twitter:description" content="Computer Science undergrad at UET Lahore. I build analytics tools that turn raw data into clear answers — SQL, data modeling, and business-focused reporting.">
+  <meta name="twitter:description" content="Computer Science undergraduate at UET Lahore working with applied data, health information, and decision-support systems.">
   <meta name="twitter:image" content="https://abdullahnyle.dev/og-image.png">
+
   <link rel="stylesheet" href="styles.css">
+  <!-- Intentionally no favicon file, empty data URI suppresses the browser's default request -->
   <link rel="icon" href="data:,">
 </head>
 <body>
   <main>
     <header>
       <h1>Abdullah Chaudhry</h1>
-      <p class="identity">Computer Science undergrad at UET Lahore. I build analytics tools that turn raw data into clear answers.</p>
+      <p class="identity">Computer Science undergraduate at UET Lahore working with applied data, health information, and decision-support systems.</p>
     </header>
+
+    <!-- Primary project. Leads with the finding, not a status update. -->
     <section class="working-on">
       <p>
-        Right now I'm building <strong>Label vs. Reality</strong> — joining real supplement label data (NIH's DSLD, 200k+ products) against a hand-built reference of what's actually effective, to find where labels and evidence don't match. Early days <a href="https://github.com/abdullahnyle/label-vs-reality">repo's up</a>, first real findings soon.
+        <strong>Current work — Label vs. Reality.</strong> An analysis of NIH dietary-supplement label data using SQL/SQLite and Python, examining how label information compares with evidence-supported reference doses.
       </p>
-      <p class="sandbox-note">
-        (<strong>FragBro</strong> a fragrance-tracking SQL sandbox — was an earlier practice project, not actively developed.)
+      <p>
+        An initial creatine analysis suggested a substantial low-dose group. After investigating duplicated serving-size records and products where creatine was only a secondary ingredient, I revised the methodology and substantially narrowed the candidate set. The project documents that process rather than hiding the false start. <a href="https://github.com/abdullahnyle/label-vs-reality">View project &rarr;</a>
       </p>
     </section>
+
+    <!-- Supporting technical work, not primary research, framed as such -->
+    <section class="working-on">
+      <p>
+        <strong>Selected work.</strong> <strong>Hospital Network Segmentation</strong> — healthcare systems / network security / systems reasoning. <a href="https://github.com/abdullahnyle/hospital-network-segmentation">View project &rarr;</a>
+      </p>
+      <p>
+        <strong>Secure Audit Log Gateway</strong> — Python / FastAPI / data integrity / testing. <a href="https://github.com/abdullahnyle/secure-audit-log-gateway">View project &rarr;</a>
+      </p>
+    </section>
+
+    <section class="working-on">
+      <p class="sandbox-note">
+        <strong>Research interests:</strong> health informatics, applied data analytics, information systems, Human-AI systems, decision support, and data-driven healthcare/services.
+      </p>
+    </section>
+
     <nav class="links">
       <a href="https://github.com/abdullahnyle" rel="me">GitHub</a>
       <a href="https://linkedin.com/in/abdullahnyle" rel="me">LinkedIn</a>
+      <!-- cv.pdf does not exist in the repo yet, placeholder until it's built -->
+      <a href="cv.pdf">CV</a>
+      <a href="mailto:abdullahnyle@icloud.com">Email</a>
     </nav>
-    <footer>
-      <p>Currently building Label vs. Reality. More projects to follow.</p>
-    </footer>
   </main>
 </body>
 </html>
