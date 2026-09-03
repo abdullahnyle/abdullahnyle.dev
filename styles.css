@@ -67,6 +67,13 @@ h1 {
 
 .working-on p {
   font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Last paragraph in each section defers spacing to the section's own margin,
+   so sections don't end up with doubled gaps between them */
+.working-on p:last-child {
+  margin-bottom: 0;
 }
 
 .working-on strong {
@@ -99,6 +106,7 @@ footer {
   font-size: 0.85rem;
   font-style: italic;
 }
+
 .sandbox-note {
   color: var(--muted);
   font-size: 0.85rem;
